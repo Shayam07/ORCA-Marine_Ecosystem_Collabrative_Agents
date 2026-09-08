@@ -1,0 +1,18 @@
+{
+  "short_name": "ORCA",
+  "name": "ORCA — Marine Ecosystem Intelligence",
+  "description": "Decision support for sustainable marine fishing, PFZ advisories, space-time optimal route planning and maritime safety.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0b111e",
+  "theme_color": "#0b111e",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "categories": ["weather", "navigation", "utilities"]
+}

@@ -1,0 +1,19 @@
+{
+  "include": [
+    "orca/backend"
+  ],
+  "extraPaths": [
+    "orca/backend",
+    "orca/backend/agents",
+    "orca/backend/api",
+    "orca/backend/config",
+    "orca/backend/conversation",
+    "orca/backend/data",
+    "orca/backend/llm",
+    "orca/backend/models",
+    "orca/backend/reasoning",
+    "orca/backend/voice"
+  ],
+  "venvPath": "orca/backend",
+  "venv": "venv"
+}

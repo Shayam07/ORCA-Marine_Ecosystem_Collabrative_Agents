@@ -1,0 +1,57 @@
+# ==============================================================================
+# Workspace .gitignore
+# ==============================================================================
+
+# --- Secrets & Environment Configurations ---
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.env
+*.env.local
+
+# --- Diagnostics & Logs ---
+.freebuff/
+*.log
+*.err
+*.log.err
+..backend.log
+
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+venv/
+**/venv/
+.pytest_cache/
+**/.pytest_cache/
+
+# --- Node & Frontend ---
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+*.tsbuildinfo
+**/tsconfig.tsbuildinfo
+
+# --- Mobile Builds ---
+android/.gradle/
+**/android/.gradle/
+android/build/
+**/android/build/
+*.apk
+*.aab
+
+# --- Local Data & Cache ---
+data/cache/*
+!data/cache/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- OS & Editor ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
